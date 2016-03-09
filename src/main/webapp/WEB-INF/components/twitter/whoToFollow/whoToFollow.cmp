@@ -1,0 +1,30 @@
+<aura:component>
+    <div aura:id="whoToFollow">
+        <div class="toFollow">
+            <div class="header">Who to follow</div>
+            <div class="labels"><div class="dot">&middot;</div><div class="refresh">Refresh</div><div class="dot">&middot;</div><div class="viewAll">View all</div></div>
+
+        </div>
+        <div class="links">
+            <div class="holdme">
+                <div class="link">© 2016 Twitter</div>
+                <div class="link">About</div>
+                <div class="link">Help</div>
+                <div class="link">Terms</div>
+                <div class="link">Privacy</div>
+                <div class="link">Cookies</div>
+                <div class="link">Ads info</div>
+                <div class="link">Brand</div>
+                <div class="link">Blog</div>
+                <div class="link">Status</div>
+                <div class="link">Apps</div>
+                <div class="link">Jobs</div>
+                <div class="link">Advertise</div>
+                <div class="link">Businesses</div>
+                <div class="link">Media</div>
+                <div class="link">Developers</div>
+            </div>
+        </div>
+    </div>
+
+</aura:component>

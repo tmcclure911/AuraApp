@@ -1,0 +1,14 @@
+<aura:component >
+    <div aura:id="sendTweet">
+        <div class="feed">
+            <div class="profilePic">
+                <img src="/img/default.png" alt="ProfilePic" class="profileIcon"/>
+            </div>
+            <ui:inputTextArea  aura:id="tweet" class="inputBody" placeholder="What's Happening?"/>
+            <button class="tweetButton" onclick="{!c.sendTweet}">
+                <img src="/img/tweet.png" alt="Tweet" class="tweetIcon"/>
+                <div class="tweetLabel">Tweet</div>
+            </button>
+        </div>
+    </div>
+</aura:component>

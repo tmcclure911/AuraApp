@@ -1,0 +1,62 @@
+<aura:component>
+    <div aura:id="profile_info">
+        <div class="info">
+            <div class="profilePic">
+                <a href="{!'homepage.app#profile?userid='+1}" ><img src="/img/profile.jpg" alt="ProfilePic" class="profileIcon"/></a>
+            </div>
+            <div class="name">
+                <div class="myName"><a href="{!'homepage.app#profile?userid='+1}" >Taylor McClure</a></div>
+                <div class="handle"><a href="{!'homepage.app#profile?userid='+1}" >@TaylorMcClure04</a></div>
+            </div>
+            <div class="bottomBlock">
+                <div class="stats">
+                    <div class="statLabel">Tweets</div>
+                    <div class="stat">88</div>
+                </div>
+                <div class="stats">
+                    <div class="statLabel">Following</div>
+                    <div class="stat">27</div>
+                </div>
+                <div class="stats">
+                    <div class="statLabel">Followers</div>
+                    <div class="stat">23</div>
+                </div>
+            </div>
+        </div>
+        <div class="trends">
+            <div class="header">Trends</div>
+            <div class="labels"><div class="dot">&middot;</div><div class="change">Change</div></div>
+            <div class="list">
+                <div class="hashtag">#RandomActsOfKindnessDay</div>
+                <div class="retweetNum">116K Tweets</div>
+
+                <div class="hashtag">#Apple</div>
+                <div class="retweetNum">63.6K Tweets</div>
+
+                <div class="hashtag">#SELFIEFORSEB</div>
+                <div class="retweetNum">9,074 Tweets</div>
+
+                <div class="hashtag">Pacquiao</div>
+                <div class="retweetNum">68.9K Tweets</div>
+
+                <div class="hashtag">#PapaenCDJ</div>
+                <div class="retweetNum">43.9K Tweets</div>
+
+                <div class="hashtag">#GBBOSportRelief</div>
+                <div class="retweetNum">Trending for 2 hours now</div>
+
+                <div class="hashtag">Pope Francis</div>
+                <div class="retweetNum">33.5K Tweets</div>
+
+                <div class="hashtag">#LittleKnownCanidateFacts</div>
+                <div class="retweetNum">Trending for 3 hours now</div>
+
+                <div class="hashtag">Ronaldo</div>
+                <div class="retweetNum">199K Tweets</div>
+
+                <div class="hashtag">Nikki Haley</div>
+                <div class="retweetNum">15.7K Tweets</div>
+            </div>
+        </div>
+    </div>
+</aura:component>

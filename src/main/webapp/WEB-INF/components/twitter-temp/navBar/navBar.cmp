@@ -1,0 +1,44 @@
+<aura:component>
+  <div aura:id="topBar">
+    <div class="navButtons">
+        <div class="navButton active">
+            <img src="/img/home.png" alt="Home" class="navIcon"/>
+            <div class="navLabel">Home</div>
+        </div>
+        <div class="navButton">
+            <img src="/img/moments.png" alt="Moments" class="navIcon"/>
+            <div class="navLabel">Moments</div>
+        </div>
+        <div class="navButton">
+            <img src="/img/notifications.png" alt="Notifications" class="navIcon"/>
+            <div class="navLabel">Notifications</div>
+        </div>
+        <div class="navButton">
+            <img src="/img/messages.png" alt="Messages" class="navIcon"/>
+            <div class="navLabel">Messages</div>
+        </div>
+    </div>
+
+    <div class="TwitterIcon">
+        <img src="/img/twitter.png" alt="TwitterIcon" class="birdIcon"/>
+    </div>
+
+    <div class="rightGroup">
+        <div class="tweetButton">
+            <img src="/img/tweet.png" alt="Tweet" class="tweetIcon"/>
+            <div class="tweetLabel">Tweet</div>
+        </div>
+
+        <div class="profilePic">
+            <img src="/img/profile.jpg" alt="ProfilePic" class="profileIcon"/>
+        </div>
+
+        <div class="searchBox">
+            <input type="text" class="searchInput" placeholder="Search Twitter" />
+            <img src="/img/search.png" alt="SearchIcon" class="searchIcon"/>
+        </div>
+
+
+    </div>
+  </div>
+</aura:component>

@@ -1,0 +1,22 @@
+<aura:component >
+    <aura:handler event="twitter:tweetMessage" action="{!c.recieveTweet}" />
+    <aura:attribute name="history" type="Object[]" />
+    <div aura:id="tweetDisplay">
+        <div class="feed">
+            <aura:iteration items="{!v.history}" var="aTweet">
+                <div class="tweetBox">
+                    <div class="picture"><img src="{!aTweet.imageUrl}" alt="Tweet" class="profilePic"/></div>
+                    <div class="content">
+                        <div class="header">
+                            <div class="name">{!aTweet.name}</div>
+                            <div class="handle">{!aTweet.handle} &middot; {!aTweet.date}</div>
+                        </div>
+                        <div class="message">{!aTweet.message}</div>
+                    </div>
+
+                    <div class="spacer"></div>
+                </div>
+            </aura:iteration>
+        </div>
+    </div>
+</aura:component>

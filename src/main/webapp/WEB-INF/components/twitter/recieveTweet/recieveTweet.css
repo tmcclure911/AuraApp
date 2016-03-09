@@ -1,0 +1,71 @@
+.THIS {
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+    float: left;
+}
+
+.THIS .feed {
+    float: left;
+    background-color: white;
+    border: 1px solid #E1E8ED;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+}
+
+
+.THIS .tweetBox {
+    width: 100%;
+    height: auto;
+    margin: 5px 5px 5px 0px;
+    background-color: red;
+}
+
+.THIS .tweetbox:hover {
+    background-color: #F5F8FA;
+}
+.THIS .profilePic {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 5px 5px 5px 10px;
+}
+
+.THIS .content {
+    float: left;
+    width: 85%;
+    height: auto;
+}
+
+.THIS .name {
+    margin: 0px 5px 5px 5px;
+    font-size: 14px;
+    font-weight: bolder;
+    float: left;
+    width: auto;
+}
+
+.THIS .handle {
+    margin: 5px 5px 5px 0px;
+    font-size: 14px;
+    color: #B1BBC3;
+}
+
+.THIS .date {
+    margin: 5px 5px 5px 0px;
+    font-size: 14px;
+    color: #B1BBC3;
+}
+
+.THIS .message {
+    padding: 5px 5px 5px 5px;
+}
+
+.THIS .spacer {
+    float: left;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #E1E8ED;
+}

@@ -1,0 +1,26 @@
+.THIS {
+    background-color: #F5F8FA;
+    height: 100%;
+}
+.THIS .tweet {
+    width: 49%;
+    height: auto;
+    margin: 5px 5px 5px 5px;
+    float: left;
+}
+.THIS .test {
+    width: 100%;
+    float: left;
+}
+
+.THIS .container {
+    width: 95%;
+    height: auto;
+    margin-left: 2.5%;
+    margin-top: 55px;
+}
+
+.THIS .spacer {
+    width: 100%;
+    height: 5px;
+}

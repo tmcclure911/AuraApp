@@ -1,0 +1,66 @@
+.THIS {
+    float: left;
+    width: 24%;
+    margin: 5px 5px 5px 5px;
+}
+
+.THIS .toFollow {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #E1E8ED;
+}
+
+.THIS .header {
+    color: #66757F;
+    font-size: 18px;
+    margin: 15px 3px 15px 15px;
+    float: left;
+}
+
+.THIS .labels {
+    float: left;
+    font-size: 12px;
+    color: red;
+    margin-top: 20px;
+}
+
+.THIS .refresh {
+    float: left;
+}
+.THIS .viewAll {
+    float: left;
+}
+.THIS .refresh:hover {
+    text-decoration: underline;
+}
+.THIS .viewAll:hover {
+    text-decoration: underline;
+}
+
+.THIS .dot {
+    float: left;
+    margin: 0px 3px 0px 3px;
+}
+
+.THIS .links {
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #E1E8ED;
+    margin-top: 10px;
+}
+.THIS .holdme {
+    margin: 10px 10px 10px 10px;
+}
+.THIS .link {
+    float: left;
+    color: #8899A6;
+    font-size: 13px;
+    margin: 5px 5px 5px 5px;
+}
+.THIS .link:hover {
+    text-decoration: underline;
+}

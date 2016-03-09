@@ -1,0 +1,122 @@
+.THIS.coverPic {
+    width: 105.5%;
+    margin-left: -3%;
+    margin-right: -3%;
+    height: 355px;
+    background-color: white;
+    border: 1px solid #E1E8ED;
+    background-image: url("/img/cover2.jpg");
+    background-size: 100% auto;
+    background-position: 0px -0px;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+}
+
+.THIS .profilePic {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    padding: 5px 5px 5px 5px;
+    border-radius: 12px;
+    margin-top: 185px;
+    margin-left: 90px;
+    float: left;
+}
+
+.THIS .profileIcon {
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+}
+
+.THIS .statsLabel {
+    text-align: center;
+    color: #66757F;
+    font-size: 11px;
+    padding-bottom: 4px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.THIS .numTweets {
+    color: #292F33;
+    font-size: 18px;
+    width: auto;
+    padding: 0px 15px 0px 15px;
+    height: 51px;
+    margin-top: 310px;
+    margin-left: 80px;
+    text-align: center;
+    float: left;
+    border-style: solid;
+    border-width: 0px 0px 4px 0px;
+    border-color: red;
+}
+.THIS .othTweets {
+    color: red;
+    font-size: 18px;
+    width: auto;
+    padding: 0px 15px 0px 15px;
+    height: 51px;
+    margin-top: 310px;
+    text-align: center;
+    float: left;
+}
+.THIS .othTweets:hover {
+    border-style: solid;
+    border-width: 0px 0px 4px 0px;
+    border-color: red;
+}
+.THIS .editButton {
+    background: #ccd6dd; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#FEFEFE, #E1E8ED); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FEFEFE, #E1E8ED); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FEFEFE, #E1E8ED); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FEFEFE, #E1E8ED); /* Standard syntax */
+    background-repeat: no-repeat;
+    border: 1px solid #E1E8ED;
+    border-radius: 4px;
+    color: #66757F;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 16px;
+    margin-top: 320px;
+    margin-left: 450px;
+    float: left;
+}
+.THIS .editButton:hover {
+    color: #292F33;
+    background: #ccd6dd; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#f2f2f2, #cfdae2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f2f2f2, #cfdae2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f2f2f2, #cfdae2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f2f2f2, #cfdae2); /* Standard syntax */
+}
+.THIS.lhs2 {
+    margin-top: 40px;
+    margin-left: 60px;
+    height: 300px;
+    width: 300px;
+    margin-right: 10px;
+}
+.THIS.profileInfo {
+    margin-top: 40px;
+    margin-left: 60px;
+    height: 300px;
+    width: 300px;
+}
+.THIS .name {
+    font-size: 22px;
+    text-align: left;
+    font-weight: bolder;
+}
+.THIS .handle {
+    color: #8899a6;
+    font-size: 14px;
+}
+
+.THIS.tweetBox {
+    float: left;
+    width: 60%;
+}

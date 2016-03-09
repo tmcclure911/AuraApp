@@ -1,0 +1,9 @@
+<aura:component>
+    <div class="spacer"></div>
+    <twitter:profile_info />
+    <div class="tweet">
+        <twitter:sendTweet />
+        <twitter:recieveTweet />
+    </div>
+    <twitter:whoToFollow />
+</aura:component>
