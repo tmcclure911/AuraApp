@@ -1,4 +1,6 @@
 <aura:component>
+    <aura:handler name="init" value="{!this}" action="{!c.init}" />
+    
     <div class="spacer"></div>
     <twitter:profile_info />
     <div class="tweet">

@@ -12,7 +12,7 @@ public class Tweet implements JsonSerializable {
 	public String name;
 	public String imageUrl;
 	public String date;
-	
+
 	Tweet(String message, String name, String imageUrl, String date) {
 		this.message = message;
 		this.name = name;
@@ -29,7 +29,7 @@ public class Tweet implements JsonSerializable {
 		arg0.writeMapEntry("date", date);
 		arg0.writeMapEnd();
 	}
-	
+
 	@Override
 	public String toString() {
 		return "name=" + name + ", message=" + message + ", imageUrl=" + imageUrl + ", date= " + date;
